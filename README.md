@@ -1,33 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VisionPro_HUD</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-        }
-        code, pre {
-            background-color: #f4f4f4;
-            padding: 2px 5px;
-            border-radius: 4px;
-        }
-        pre {
-            padding: 10px;
-            border-radius: 4px;
-        }
-        .directory-structure {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 4px;
-            font-family: monospace;
-        }
-    </style>
-</head>
-<body>
     <h1>VisionPro_HUD</h1>
     <h2>Authors</h2>
     <ul>
@@ -136,10 +106,4 @@ VisionPro_HUD/
     <p>This project is licensed under the MIT License.</p>
 </body>
 </html>
-"""
 
-# Write the README.html content to a file
-with open("VisionPro_HUD/README.html", 'w') as readme_file:
-    readme_file.write(readme_content)
-
-"README.html created successfully."
