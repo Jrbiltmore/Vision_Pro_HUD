@@ -1,3 +1,6 @@
+Here's the corrected `README.md` content with the proper directory structure:
+
+```markdown
 # VisionPro_HUD
 
 ## Authors
@@ -8,12 +11,45 @@
 VisionPro_HUD is a comprehensive Heads-Up Display (HUD) application designed for Apple's Vision Pro. It leverages advanced augmented reality features, gesture controls, and voice commands to provide real-time updates and a seamless user experience. This project includes various components and services that manage notifications, navigation, health metrics, data synchronization, and user preferences.
 
 ## Directory Structure
-VisionPro_HUD/ │ ├── README.md ├── package.json │ ├── src/ │ ├── components/ │ │ ├── HUDManager.js │ │ ├── GestureRecognition.js │ │ ├── VoiceControl.js │ │ ├── NotificationDisplay.js │ │ ├── NavigationDisplay.js │ │ │ ├── services/ │ │ ├── DataSyncService.js │ │ ├── UserPreferencesService.js │ │ │ ├── utils/ │ │ ├── ErrorHandler.js │ │ ├── Logger.js │ │ │ ├── styles/ │ ├── main.css │ ├── themes.css │ ├── tests/ │ ├── HUDManager.test.js │ ├── GestureRecognition.test.js │ ├── VoiceControl.test.js │ ├── assets/ │ ├── docs/ │ └── .github/ └── workflows/ └── ci.yml
-
-shell
-Always show details
-
-Copy code
+```
+VisionPro_HUD/
+│
+├── README.md
+├── package.json
+│
+├── src/
+│   ├── components/
+│   │   ├── HUDManager.js
+│   │   ├── GestureRecognition.js
+│   │   ├── VoiceControl.js
+│   │   ├── NotificationDisplay.js
+│   │   ├── NavigationDisplay.js
+│   │
+│   ├── services/
+│   │   ├── DataSyncService.js
+│   │   ├── UserPreferencesService.js
+│   │
+│   ├── utils/
+│   │   ├── ErrorHandler.js
+│   │   ├── Logger.js
+│   │
+│   ├── styles/
+│   │   ├── main.css
+│   │   └── themes.css
+│
+├── tests/
+│   ├── HUDManager.test.js
+│   ├── GestureRecognition.test.js
+│   ├── VoiceControl.test.js
+│
+├── assets/
+│
+├── docs/
+│
+└── .github/
+    └── workflows/
+        └── ci.yml
+```
 
 ## Components
 ### HUDManager.js
@@ -90,3 +126,4 @@ GitHub Actions workflow for continuous integration.
 
 ## License
 This project is licensed under the MIT License.
+```
